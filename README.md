@@ -14,15 +14,6 @@ It leverages:
 - Whisper-based transcription and NLP-based emotion classification  
 - Flask backend for both web app and ML client  
 
-
-## 👥 Team Members
-
-- Xiaowei Ma [GitHub](https://github.com/WillliamMa)
-- Rishi Rana [GitHub](https://github.com/Rishi-Rana1)
-- Mandy Mao [GitHub](https://github.com/manrongm)
-- Juno Cheung [Github](https://github.com/avacheungx)
-
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
