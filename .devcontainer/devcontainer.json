@@ -1,20 +1,28 @@
 {
     "name": "Sound Emotion Dashboard",
     "dockerComposeFile": ["../docker-compose.yml"],
-    "service": "web_app",
-    "workspaceFolder": "/workspace",
-    "settings": {
-      "terminal.integrated.shell.linux": "/bin/bash"
+    "service": "web", 
+    "workspaceFolder": "/app",
+  
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.shell.linux": "/bin/bash"
+        },
+        "extensions": [
+          "ms-python.python",
+          "ms-python.black-formatter",
+          "ms-python.pylint",
+          "ms-azuretools.vscode-docker"
+        ]
+      }
     },
-    "extensions": [
-      "ms-python.python",
-      "ms-python.black-formatter",
-      "ms-python.pylint",
-      "ms-azuretools.vscode-docker"
-    ],
+  
     "forwardPorts": [5050, 6000],
     "postCreateCommand": "pip install -r requirements.txt",
-    "remoteUser": "vscode"
+    "remoteUser": "root"
   }
+  
+  
   
   
